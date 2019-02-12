@@ -4,6 +4,10 @@
 margin: 0;
 padding: 0;
 }
+body
+{
+	padding-top: 90px;
+}
 /*---Navigation---*/
 #nav-bar
 {
@@ -42,6 +46,16 @@ padding: 0;
     color: #FFE367!Important;
     font-weight: 600;
     font-size: 16px;
+}
+.affix 
+{
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.affix + .container-fluid 
+{
+    padding-top: 70px;
 }
 /* --- Slider -- */
 #slider
@@ -225,4 +239,16 @@ padding: 0;
 	margin: 6px;
 	color: #007bff;
 	font-weight: bold;
+}
+/*-------Footer-------*/
+#footer
+{
+	background: #333;
+	color: #fff;
+	padding: 12px;
+}
+.fa-heart-o
+{
+	margin: 3px;
+		color:red;
 }
