@@ -79,34 +79,49 @@ padding: 0;
 /*----------- Projects -----------*/
 #projects
 {
-	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/projects_img.jpg);
-	background-size: cover;
-	background-position: center;
-	color: #efefef !important;
-	background-attachment: fixed;
+	color: #555;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 #projects h1
 {
 	text-align: center;
-	color: #efefef !important;
+	color: #555 !important;
 	padding-bottom: 10px;
 }
 #projects h1::after
 {
 	content: '';
-	background: #efefef;
+	background: #007;
 	display: block;
 	height: 3px;
 	width: 170px;
 	margin: 20px auto 5px;
 }
+.project-pic
+{
+	margin-top: 25px;
+}
+.project-pic .img-box
+{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.project-pic .img-box img
+{
+	filter: grayscale(1);
+}
+.project-pic .img-box img:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+}
 
 /*-------------- Skills -----------------*/
 #skills
 {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/projects_img);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(imgs/projects_img.jpg);
 	background-size: cover;
 	background-position: center;
 	color: #efefef !important;
