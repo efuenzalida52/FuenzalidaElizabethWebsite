@@ -4,9 +4,13 @@
 margin: 0;
 padding: 0;
 }
+html 
+{
+  scroll-behavior: smooth;
+}
 body
 {
-	padding-top: 90px;
+	padding-top: 96px;
 }
 /*---Navigation---*/
 #nav-bar
@@ -76,9 +80,25 @@ body
 /* ---------About --------- */
 #about
 {
+	background: #efefef;
     padding-top: 50px;
     padding-bottom: 50px;
     color: #555;
+}
+#about h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+#about h1::after
+{
+	content: '';
+	background: #007;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 10px auto 5px;
 }
 #about .btn
 {
@@ -93,6 +113,7 @@ body
 /*----------- Projects -----------*/
 #projects
 {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(imgs/Bkgrd_Img.jpg);
 	color: #555;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -100,21 +121,23 @@ body
 #projects h1
 {
 	text-align: center;
-	color: #555 !important;
+	color: #efefef !important;
 	padding-bottom: 10px;
 }
 #projects h1::after
 {
 	content: '';
-	background: #007;
+	background: #efefef;
 	display: block;
 	height: 3px;
 	width: 170px;
-	margin: 20px auto 5px;
+	margin: 10px auto 5px;
 }
 .project-pic
 {
-	margin-top: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 170px;
 }
 .project-pic .img-box
 {
@@ -156,7 +179,7 @@ body
 	display: block;
 	height: 3px;
 	width: 170px;
-	margin: 20px auto 5px;
+	margin: 10px auto 5px;
 }
 /*.skills
 {
@@ -179,7 +202,7 @@ body
 	color: #ccc;
 }
 .skills .col-md-3:hover
-/*creates hover effect on icons*/
+/*hover creates hover effect on icons*/
 {
 	background: #007bff;
 	cursor: pointer;
@@ -211,10 +234,20 @@ body
 	padding-bottom: 40px;
 	color: #777;
 }
-/*#contact h1
+#contact h1
 {
 	text-align: center;
-}*/
+	color: #555;
+}
+#contact h1::after
+{
+	content: '';
+	background: #007;
+	display: block;
+	height: 3px;
+	width: 250px;
+	margin: 10px auto 5px;
+}
 .contact-form
 {
 	padding: 15px;
