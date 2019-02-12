@@ -188,3 +188,41 @@ padding: 0;
     border-radius: 16px !important;
     margin-bottom: 20px;
 }
+
+/*--------------Get In Touch-------------- */
+#contact
+{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+/*#contact h1
+{
+	text-align: center;
+}*/
+.contact-form
+{
+	padding: 15px;
+}
+.form-control
+{
+	border-radius: 0 !important;
+	border: none;
+}
+::placeholder
+{
+	color: #999 !important;
+}
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+.contact-info .fa
+{
+	margin: 6px;
+	color: #007bff;
+	font-weight: bold;
+}
