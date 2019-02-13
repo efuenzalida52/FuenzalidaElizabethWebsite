@@ -10,7 +10,7 @@ html
 }
 body
 {
-	padding-top: 70px;
+	padding-top: 90px;
 }
 /*---Navigation---*/
 #nav-bar
@@ -21,8 +21,7 @@ body
 }
 .navbar-brand img
 {
-    height: 70px;
-    padding-left: 40px ;
+    height: 90px;
 }
 .navbar-nav li
 {
@@ -35,19 +34,23 @@ body
 }
 #nav-bar ul li a:hover
 {
-    color: #007bff!important; /*!important overrides bootstrap classes*/
+    color: #00ffff!important; /*!important overrides bootstrap classes*/
 }
 .navbar
 {
-    background: #7C4F00;
+    background: #000000;
 }
 .navbar-toggler
 {
     border: none!important;
 }
+.navbar-toggler-icon
+{
+	color:#ffffff!Important;
+}
 .nav-link
 {
-    color: #FFE367!Important;
+    color: #778899!Important;
     font-weight: 600;
     font-size: 16px;
 }
